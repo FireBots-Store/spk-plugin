@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SPK:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SPK_jar</output-path>
+    <root id="archive" name="SPK.jar">
+      <element id="module-output" name="SPK" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,23 @@
+name: SPK
+author: ylorde
+version: 1.0.0-SNAPSHOT
+main: store.firebots.Main
+
+commands:
+  lixeira:
+    aliases:
+      - lixo
+    description: Abre uma lixeira virtual
+    usage: /lixeira
+
+  chapeu:
+    description: Coloca qualquer bloco quadrado em sua cabeça
+    usage: /chapeu
+
+  discord:
+    description: Envia o convite para o servidor de discord
+    usage: /discord
+
+  sentar:
+    description: Se senta como se estivesse em uma cadeira
+    usage: /sentar

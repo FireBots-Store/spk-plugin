@@ -1,0 +1,36 @@
+#SPK PLUGIN
+#VERSION: 1.0.0
+#AUTHOR: @ylorde (DISCORD)
+
+PLAYER_JOIN_DISCORD_WEBHOOK: ""
+
+DISCORD_INVITE: "&aConvite para nosso discord: &9https://firebots.store"
+
+PLAYER_JOIN_MESSAGE: "&c[SPK] >>&a %player% juntou-se ao servidor."
+PLAYER_QUIT_MESSAGE: "&c[SPK] >>&e %player% saiu do servidor."
+
+#SERVER_LIST_MESSAGE: "" #EM DESENOLVIMENTO
+#PLAYERS_SHOW_LIMIT: "" #EM DESENVOLVIMENTO
+
+TRASH_MESSAGE: "&c[SPk] >>&a Você abriu uma lixeira virtual."
+TRASH_TITLE: "&c[SPK] &0Lixeira"
+TRASH_ROWS: 6
+INVALID_ITEM: "&c[SPK] >>&e Item inválido."
+PLACED_HELMET: "&c[SPK] >>&a Item colocado como capacete."
+
+DROPPED_DIAMOND: "&cAlerta!! Você acabou de dropar diamante no chão!"
+BREAK_DIAMOND: "&aVocê minerou diamante"
+
+AUTO_PICKUP: true
+
+#WITHER BOSS
+
+WITHER_BREAK_BLOCKS: false
+WITHER_EXPLOSION_DAMAGE: true
+
+#CHAT
+
+# nome de usuário: %nickname%
+# mensagem: %mensagem%
+
+MESSAGE_CHAT_FORMAT: "&a%nickname%&f: &e%message%"
