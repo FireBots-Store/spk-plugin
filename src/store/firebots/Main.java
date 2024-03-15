@@ -5,9 +5,7 @@ import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
-import store.firebots.Commands.Chapeu;
-import store.firebots.Commands.Discord;
-import store.firebots.Commands.Lixeira;
+import store.firebots.Custom.CustomRecipes;
 import store.firebots.Events.*;
 
 import java.io.File;
@@ -33,11 +31,7 @@ public class Main extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new BlockBreak(), this);
         getServer().getPluginManager().registerEvents(new PlayerPickupItem(), this);
         getServer().getPluginManager().registerEvents(new PlayerChat(), this);
-
-
-        this.getCommand("lixeira").setExecutor(new Lixeira());
-        this.getCommand("chapeu").setExecutor(new Chapeu());
-        this.getCommand("discord").setExecutor(new Discord());
+        getServer().getPluginManager().registerEvents(new CustomRecipes(), this);
 
         createCustomConfig();
     };
